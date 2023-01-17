@@ -9,26 +9,45 @@
       rel="icon"
       type="image/x-icon"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles/index.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Product Landing Page</title>
   </head>
   <body>
-    <header>
+    <header id="nav-header">
       <nav>
-        <ul>
-          <li>Contact</li>
-          <li>FAQ</li>
-          <li>Buy</li>
+        <ul class="nav-list">
+          <li class="nav-list-item">Contact</li>
+          <li class="nav-list-item">FAQ</li>
+          <li class="nav-list-item" id="buy-button">
+            <i class="fa-solid fa-cart-shopping"></i><span>Buy</span>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <section>
-      <h1>Hello World</h1>
-    </section>
+    <main>
+      <section>
+        <h1>Hello World</h1>
+      </section>
+    </main>
 
     <footer>
       <p>Footer</p>
     </footer>
+
     <script src="./scripts/index.js" />
   </body>
 </html>
