@@ -22,6 +22,11 @@ footer {
   background-color: #708090;
 }
 
+img {
+  height: 10%;
+  width: 10%;
+}
+
 .nav-list {
   list-style: none;
   text-align: end;
@@ -60,8 +65,28 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 600px;
-  padding: 100px 20vw;
+  min-height: 700px;
+  padding: 100px 10vw;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+}
+
+.image-section-copy {
+  margin-left: 7.5em;
+}
+
+.image-section-copy > p {
+  font-size: 2em;
+}
+
+.image-section > img {
+  background-color: #6495ed;
+  padding: 20px;
+  margin: 5px;
 }
 
 .wave {
